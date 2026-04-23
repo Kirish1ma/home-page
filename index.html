@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="icon" type="image/x-icon" href="static/favicon.svg" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -14,6 +15,10 @@
 
         .blog__swiper-slide-xl {
           display: block !important;
+        }
+
+        .services__tab-img-wrapper {
+          display: none !important;
         }
       }
     </style>
@@ -276,14 +281,17 @@
                     </div>
                     <div class="services__tab js-services-content" data-item="1">
                       <div class="services__tab-img-wrapper">
-                        <img
-                          class="services__tab-img"
-                          src="static/picture/Hartmann_Maschinenhalle_1868.jpg"
-                          alt="img"
-                        />
+                        <picture>
+                          <img
+                            class="services__tab-img"
+                            src="static/picture/Hartmann_Maschinenhalle_1868.jpg"
+                            alt="img"
+                          />
+                        </picture>
                       </div>
                       <div class="services__tab-desc manrope-text2">
-                        在十九世纪的欧洲城市中，工业化带来的不仅是机器与烟囱，更是一种新的时间秩序。过去以季节、宗教节日与农业周期为中心的生活，被逐渐替换为精确到分钟的工厂钟声。历史学者常指出，这种变化不仅是经济结构的转型，也是一种心理结构的重塑。个体开始以“效率”“生产率”这样的概念理解自身价值，而不再只是以家庭、行会或土地作为身份的核心。现代社会许多焦虑，某种程度上仍然与这种时间纪律的内化有关。
+                        在十九世纪的欧洲城市中，工业化带来的不仅是机器与烟囱，更是一种新的时间秩序。过去以季节、宗教节日与农业周期为中心的生活，被逐渐替换为精确到分钟的工厂钟声。历史学者常指出，这种变化不仅是经济结构的转型，也是一种心理结构的重塑。个体开始以“效率”“生产率”这样的概念理解自身价值，而不再只是以家庭、行会或土地作为身份的核心。现代社会许多焦虑，某种程度上仍然与这种时间纪律的内化有关。<br /><br />
+                        更微妙的是，时间一旦被量化，迟到与浪费便不再只是道德评价，而是可以被统计、被比较、被惩罚的“差值”。人们开始用日程表管理生活，用倒计时衡量进度，甚至用“可被优化的习惯”想象自我。直到今天，手机通知与工作平台的在线状态仍延续着类似的逻辑：我们似乎总在被提醒要更快、更专注、更可控，却很难回答究竟为了什么。
                       </div>
                     </div>
                   </div>
@@ -294,14 +302,17 @@
                     </div>
                     <div class="services__tab js-services-content" data-item="2">
                       <div class="services__tab-img-wrapper">
-                        <img
-                          class="services__tab-img"
-                          src="static/picture/sea-waves.jpg"
-                          alt="Image by Mateus Andre on Freepik"
-                        />
+                        <picture>
+                          <img
+                            class="services__tab-img"
+                            src="static/picture/sea-waves.jpg"
+                            alt="Image by Mateus Andre on Freepik"
+                          />
+                        </picture>
                       </div>
                       <div class="services__tab-desc manrope-text2">
-                        海洋在文学中经常被用作一种双重象征。一方面，它代表着未知与危险：航行意味着离开熟悉的世界，进入无法完全预测的空间。另一方面，海洋也象征自由，因为它不像陆地那样被边界严格划分。许多作家利用这种矛盾性来描写人的精神状态——当人物面对广阔海面时，他们既感到恐惧，也感到某种难以言说的解放。这种张力，使海洋成为叙事中极为有效的意象。
+                        海洋在文学中经常被用作一种双重象征。一方面，它代表着未知与危险：航行意味着离开熟悉的世界，进入无法完全预测的空间。另一方面，海洋也象征自由，因为它不像陆地那样被边界严格划分。许多作家利用这种矛盾性来描写人的精神状态——当人物面对广阔海面时，他们既感到恐惧，也感到某种难以言说的解放。这种张力，使海洋成为叙事中极为有效的意象。<br /><br />
+                        但海洋的魅力还在于，它往往不是“目的地”，而是“途中”。人在海上并不拥有稳定的参照物，只能依靠星辰、风向与经验来重新确认自己。正因如此，海洋经常让人物暴露出最真实的底色：逃避的人更想远离陆地，渴望归属的人更害怕迷失；而当船在浪中摇摆，内心的秩序也会随之松动。
                       </div>
                     </div>
                   </div>
@@ -312,10 +323,13 @@
                     </div>
                     <div class="services__tab js-services-content" data-item="3">
                       <div class="services__tab-img-wrapper">
-                        <img class="services__tab-img" src="static/picture/ENIAC-changing_a_tube.jpg" alt="img" />
+                        <picture>
+                          <img class="services__tab-img" src="static/picture/ENIAC-changing_a_tube.jpg" alt="img" />
+                        </picture>
                       </div>
                       <div class="services__tab-desc manrope-text2">
-                        在计算机科学的发展过程中，抽象层次的增加几乎是不可避免的趋势。早期程序员直接面对机器指令，需要精确控制寄存器和内存地址；随后出现的高级语言将这些细节隐藏在语法与编译器之后，使开发者能够专注于算法与逻辑结构。再往后，框架与库进一步封装复杂度，使得大量常见问题被预先解决。然而，每一次抽象都同时带来新的问题：系统变得更易使用，但也更难完全理解其内部机制。
+                        在计算机科学的发展过程中，抽象层次的增加几乎是不可避免的趋势。早期程序员直接面对机器指令，需要精确控制寄存器和内存地址；随后出现的高级语言将这些细节隐藏在语法与编译器之后，使开发者能够专注于算法与逻辑结构。再往后，框架与库进一步封装复杂度，使得大量常见问题被预先解决。然而，每一次抽象都同时带来新的问题：系统变得更易使用，但也更难完全理解其内部机制。<br /><br />
+                        当抽象“运作良好”时，它像一层透明的玻璃，帮助我们更快地抵达目标；可一旦发生故障，玻璃就会突然变成迷雾，错误信息只剩下陌生的调用栈与模糊的边界。所谓“抽象泄漏”并不是异常，而是常态：网络会抖动，磁盘会满，依赖会冲突，缓存会过期。写代码最终变成一种在可控与不可控之间反复协商的艺术。
                       </div>
                     </div>
                   </div>
@@ -326,10 +340,13 @@
                     </div>
                     <div class="services__tab js-services-content" data-item="4">
                       <div class="services__tab-img-wrapper">
-                        <img class="services__tab-img" src="static/picture/Le_Penseur_by_Rodin.webp" alt="img" />
+                        <picture>
+                          <img class="services__tab-img" src="static/picture/Le_Penseur_by_Rodin.webp" alt="img" />
+                        </picture>
                       </div>
                       <div class="services__tab-desc manrope-text2">
-                        哲学讨论中常见一个误解，即认为理论的价值取决于它是否能提供最终答案。事实上，许多重要理论的意义恰恰在于提出更精确的问题。通过区分概念、澄清假设、暴露隐含前提，哲学家往往改变人们思考问题的方式，而不是直接给出结论。历史上许多思想转折——例如对主体、知识或权力的重新理解——往往正是通过这种问题重构实现的。换言之，理论并不总是终点，它更像是重新组织思考路径的工具。
+                        哲学讨论中常见一个误解，即认为理论的价值取决于它是否能提供最终答案。事实上，许多重要理论的意义恰恰在于提出更精确的问题。通过区分概念、澄清假设、暴露隐含前提，哲学家往往改变人们思考问题的方式，而不是直接给出结论。历史上许多思想转折——例如对主体、知识或权力的重新理解——往往正是通过这种问题重构实现的。换言之，理论并不总是终点，它更像是重新组织思考路径的工具。<br /><br />
+                        与其把哲学当作一台“答案制造机”，不如把它当作一套提问的训练：哪些词被我们用得太随意，哪些前提被我们默默接受，哪些结论其实只是在不同语境中滑动。很多争论之所以漫长，不是因为人们缺少聪明，而是因为他们在不同的概念地图上行走。哲学的作用，常常就是把地图摊开，让人看见自己站在何处。
                       </div>
                     </div>
                   </div>
